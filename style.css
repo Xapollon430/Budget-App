@@ -131,10 +131,6 @@ body {
         width: 60%;
     }
 
-    .mid {
-        height: 10%;
-    }
-
     .mid-wrapper {
         width: 70%;
         grid-template-columns: 1fr 1fr;
