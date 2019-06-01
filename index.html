@@ -104,14 +104,14 @@
             if (pickerValue === "+") { //checking if user wants to add to EXPENSES or INCOME
                 outerDiv.innerHTML = `<span>${descriptionValue}</span>
                     <span class="green-text">${pickerValue +" "+moneyValue}</span>
-                    <button type="button" class="btn btn-warning ">X</button>`;
+                    <button type="button" class="btn btn-light ">X</button>`;
                 outerDiv.classList.add('income-item');
 
                 incomeBottomDiv.append(outerDiv);
             } else { //checking if user wants to add to EXPENSES or INCOME
                 outerDiv.innerHTML = `<span>${descriptionValue}</span>
                     <span class="red-text">${pickerValue +" "+moneyValue}</span>
-                    <button type="button" class="btn btn-warning ">X</button>`;
+                    <button type="button" class="btn ">X</button>`;
                 outerDiv.classList.add('expense-item');
 
                 expenseBottomDiv.append(outerDiv);
