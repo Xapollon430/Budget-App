@@ -73,7 +73,6 @@ body {
 /*MID SECTION*/
 
 .mid {
-    height: 8%;
     background: rgb(246, 245, 247);
     display: grid;
     justify-items: center;
